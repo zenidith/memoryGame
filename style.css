@@ -1,10 +1,18 @@
+body {
+    background-image: url(images/bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
 #game {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 25px;
-    border: 10px ridge greenyellow;
+    padding-top: 10px;
+    border: 10px ridge rgb(124, 125, 122);
 }
 
 .grid {
@@ -12,4 +20,14 @@
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
+}
+
+h2 {
+    color: rgb(86, 42, 15);
+}
+
+h2, h5 {
+    font-size: 1.3em;
+    margin: 1rem;
+    text-align:justify;
 }
